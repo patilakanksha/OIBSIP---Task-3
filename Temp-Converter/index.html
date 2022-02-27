@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet"href="temp.css">  
+  
+ 
+<body>
+
+<section>
+ <h1>TEMPERATURE CONVERTER</h1>
+
+<div>
+  <br>
+  <form name="myForm">
+    <input type="radio" id="tempToF" name="temp" value="Celsius" class="selectType">
+    <label for="html">Celsius -> Fahrenheit</label><br>
+    <input type="radio" id="tempToC" name="temp" value="Fahrenheit" class="selectType">
+    <label for="css">Fahrenheit -> Celsius</label><br>
+  <br>
+  <input type="number" name="" placeholder=" Celsius " 
+  id="cd" step="any" readonly="true">  <br>
+  <input type="number" name="" placeholder=" Fahrenheit"
+  id="fd" step="any" readonly="true"> <br>
+  <span class="button" onclick="changeDeg()"> Convert</span><input type="reset" value="Reset" class="clearbtn">
+  </form>
+</div>
+</section>
+
+ <script src="temp.js"></script>
+</body>
+</html>
